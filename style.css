@@ -1,0 +1,73 @@
+img
+{
+    border:solid;
+    border-width: 5px;
+    border-color: red;
+    
+}
+
+body
+{
+
+    background-color:turquoise;
+    
+}
+
+.heading
+{
+
+    color:blue;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    
+
+}
+
+.projects
+{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    color: red;
+    font-size: 20px;
+}
+
+a:link
+{
+    color:blue
+}
+a:visited
+{
+    color:blueviolet
+
+}
+
+.project
+{
+
+    position:relative
+
+}
+
+.project p
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.project:hover p
+{
+    opacity:1;
+}
+
+.project:hover img
+{
+    opacity:0.3
+}
